@@ -1,0 +1,12 @@
+from textblob import TextBlob
+import nltk
+import streamlit as st
+from textblob.sentiments import NaiveBayesAnalyzer
+
+st.write()
+opinion = TextBlob("I hate Arsenal!", analyzer=NaiveBayesAnalyzer())
+print(opinion.sentiment)
+##print(opinion.analyze)
+
+opinion = TextBlob("I hate Arsenal!")
+print(opinion.sentiment)
