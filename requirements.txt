@@ -1,5 +1,5 @@
-streamlit==0.52.1
-textblob
-nltk
-textblob.sentiments
-sqlite3
+from textblob import TextBlob
+import nltk
+import streamlit as st
+from textblob.sentiments import NaiveBayesAnalyzer
+import sqlite3
