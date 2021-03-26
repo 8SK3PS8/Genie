@@ -1,1 +1,5 @@
 streamlit==0.52.1
+textblob
+nltk
+textblob.sentiments
+sqlite3
