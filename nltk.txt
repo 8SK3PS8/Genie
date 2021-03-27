@@ -15,3 +15,5 @@ treebank
 dependency_treebank
 twitter_samples
 movie_reviews
+words
+brown
