@@ -13,3 +13,5 @@ porter_test
 vader_lexicon
 treebank
 dependency_treebank
+twitter_samples
+movie_reviews
