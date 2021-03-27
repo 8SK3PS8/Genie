@@ -1,4 +1,4 @@
-import TextBlob
+import textBlob
 import nltk
 import streamlit as st
 import NaiveBayesAnalyzer
